@@ -1,38 +1,38 @@
-@extends('layouts.app')
+@extends('site.layouts.app')
 
 @section('title', 'Accueil')
 
 @section('content')
     <!-- Hero Section -->
-    @include('components.home.hero')
+    @include('site.components.home.hero')
 
     <!-- Search Tabs -->
-    @include('components.home.search-tabs')
+    @include('site.components.home.search-tabs')
 
     <!-- About Section -->
-    @include('components.home.about')
+    @include('site.components.home.about')
 
     <!-- Features Section -->
-    @include('components.home.features')
+    @include('site.components.home.features')
 
     <!-- Gallery Section -->
-    @include('components.home.gallery')
+    @include('site.components.home.gallery')
 
     <!-- Properties Section -->
-    @include('components.home.properties')
+    @include('site.components.home.properties')
 
     <!-- Location Section -->
-    @include('components.home.location')
+    @include('site.components.home.location')
 
     <!-- Testimonial Section -->
-    @include('components.home.testimonial')
+    @include('site.components.home.testimonial')
 
     <!-- Blog Section -->
-    @include('components.home.blog')
+    <!-- @include('site.components.home.blog') -->
 
     <!-- Contact Section -->
-    @include('components.home.contact')
+    @include('site.components.home.contact')
 
     <!-- CTA Section -->
-    @include('components.home.cta')
+    @include('site.components.home.cta')
 @endsection

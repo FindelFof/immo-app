@@ -5,13 +5,13 @@
                 <div class="tabs-area">
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Rent</button>
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Louer</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Buy</button>
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Acheter</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Sell</button>
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Vendre</button>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
@@ -21,10 +21,10 @@
                                 <input type="hidden" name="type" value="rent">
                                 <div class="all-cities-area">
                                     <div class="cities">
-                                        <p>City/State</p>
+                                        <p>Ville/Quartier</p>
                                         <div class="input-place after">
                                             <select name="city" class="nice-select">
-                                                <option value="" data-display="New York City">New York City</option>
+                                                <option value="" data-display="Abidjan">Abidjan</option>
                                                 @foreach($cities ?? [] as $city)
                                                     <option value="{{ $city->id }}">{{ $city->name }}</option>
                                                 @endforeach
@@ -34,7 +34,7 @@
                                     <!-- Autres champs -->
                                     <div class="cities">
                                         <div class="input-place">
-                                            <button type="submit" class="header-btn1">Search <img src="{{ asset('assets/img/icons/search1.svg') }}" alt=""></button>
+                                            <button type="submit" class="header-btn1">Rechercher <img src="{{ asset('assets/img/icons/search1.svg') }}" alt=""></button>
                                         </div>
                                     </div>
                                 </div>

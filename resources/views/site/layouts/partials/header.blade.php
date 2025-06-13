@@ -9,10 +9,8 @@
                         </div>
                         <div class="main-menu">
                             <ul>
-                                <li><a href="#">Accueil <i class="fa-solid fa-angle-down"></i></a>
-                                    <div class="tp-submenu">
-                                        <!-- Contenu du sous-menu -->
-                                    </div>
+                                <li>
+                                    <a href="#">Accueil</a>
                                 </li>
                                 <li><a href="/a-propos">À propos</a></li>
                                 <li><a href="#">Propriétés <i class="fa-solid fa-angle-down"></i></a>
@@ -58,4 +56,4 @@
 </header>
 
 <!-- Header Mobile -->
-@include('layouts.partials.mobile-header')
+@include('site.layouts.partials.mobile-header')

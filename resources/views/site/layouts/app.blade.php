@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    @include('layouts.partials.head')
+    @include('site.layouts.partials.head')
 </head>
 <body class="homepage1-body">
 
 <!-- Préchargeur -->
-@include('layouts.partials.preloader')
+@include('site.layouts.partials.preloader')
 
 <!-- Progression de la page -->
 <div class="paginacontainer">
@@ -18,16 +18,16 @@
 </div>
 
 <!-- Header -->
-@include('layouts.partials.header')
+@include('site.layouts.partials.header')
 
 <!-- Contenu principal -->
 @yield('content')
 
 <!-- Footer -->
-@include('layouts.partials.footer')
+@include('site.layouts.partials.footer')
 
 <!-- Scripts -->
-@include('layouts.partials.scripts')
+@include('site.layouts.partials.scripts')
 @stack('scripts')
 </body>
 </html>

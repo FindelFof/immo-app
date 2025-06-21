@@ -1,227 +1,90 @@
-<!--===== FEATURES AREA STARTS =======-->
-<div class="features1-section-area sp2">
+<!--===== SERVICES AREA STARTS =======-->
+<div class="features1-section-area sp2" style="background-color: #f8f9fa;">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 m-auto">
+      <div class="col-lg-8 m-auto">
         <div class="features-header text-center heading2">
-          <h5 class="text-anim"><img src="assets/img/icons/logo-icon1.svg" alt="">Featured Listing</h5>
-          <h2 class="text-anim">Our Features Listing</h2>
+          <h5 class="text-anim" style="color: var(--secondary-color);">Nos Services</h5>
+          <h2 class="text-anim">L'Expertise De L'Immobilier Écologique</h2>
         </div>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-lg-12">
-        <div class="features-slider-area owl-carousel">
-          <div class="featured-boxarea">
-            <div class="img1">
-              <img src="assets/img/all-images/features-img1.png" alt="">
-            </div>
-            <div class="sell-point">
-              <a href="property-single.html" class="sell">Sell</a>
-              <a href="property-single.html" class="featured">Featured</a>
-            </div>
-            <div class="content-area">
-              <a href="property-single.html">Villa With Panoramic View</a>
-              <p>37254 Abby Lakes Suite 093</p>
-              <ul>
-                <li><a href="#"><img src="assets/img/icons/sqft.svg" alt="">1350 sqft</a></li>
-                <li><a href="#"><img src="assets/img/icons/bed.svg" alt="">3 Beds</a></li>
-                <li class="m-0"><a href="#"><img src="assets/img/icons/bath.svg" alt="">2 Baths</a></li>
-              </ul>
-              <div class="price-area">
-                <h3>$850/ <span>month</span></h3>
-                <a href="#"><img src="assets/img/icons/like.svg" alt="" class="like1"> <img src="assets/img/icons/like1.svg" alt="" class="like2"></a>
-              </div>
-            </div>
-          </div>
 
-          <div class="featured-boxarea">
-            <div class="img1">
-              <img src="assets/img/all-images/features-img2.png" alt="">
-            </div>
-            <div class="sell-point">
-              <a href="property-single.html" class="sell">Sell</a>
-              <a href="property-single.html" class="featured">Featured</a>
-            </div>
-            <div class="content-area">
-              <a href="property-single.html">Sunset Haven Estate</a>
-              <p>799 Loma Lodge, Quigleystad</p>
-              <ul>
-                <li><a href="#"><img src="assets/img/icons/sqft.svg" alt="">1250 sqft</a></li>
-                <li><a href="#"><img src="assets/img/icons/bed.svg" alt="">4 Beds</a></li>
-                <li class="m-0"><a href="#"><img src="assets/img/icons/bath.svg" alt="">2 Baths</a></li>
-              </ul>
-              <div class="price-area">
-                <h3>$7,50,000</h3>
-                <a href="#"><img src="assets/img/icons/like.svg" alt="" class="like1"> <img src="assets/img/icons/like1.svg" alt="" class="like2"></a>
-              </div>
-            </div>
+      <!-- Service 1: Service varié -->
+      <div class="col-lg-4 col-md-6 mb-4 d-flex">
+        <div class="service-card" style="background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); width: 100%;">
+          <div class="service-icon" style="font-size: 2.5rem; color: var(--secondary-color); margin-bottom: 20px;">
+            <i class="fa-solid fa-shield-alt"></i>
           </div>
-
-          <div class="featured-boxarea">
-            <div class="img1">
-              <img src="assets/img/all-images/features-img3.png" alt="">
-            </div>
-            <div class="sell-point">
-              <a href="property-single.html" class="sell">Sell</a>
-              <a href="property-single.html" class="featured">Featured</a>
-            </div>
-            <div class="content-area">
-              <a href="property-single.html">Willow Brook Residence</a>
-              <p>1722 Pollich Heights, Kamronview</p>
-              <ul>
-                <li><a href="#"><img src="assets/img/icons/sqft.svg" alt="">2000 sqft</a></li>
-                <li><a href="#"><img src="assets/img/icons/bed.svg" alt="">4 Beds</a></li>
-                <li class="m-0"><a href="#"><img src="assets/img/icons/bath.svg" alt="">2 Baths</a></li>
-              </ul>
-              <div class="price-area">
-                <h3>$950/ <span>month</span></h3>
-                <a href="#"><img src="assets/img/icons/like.svg" alt="" class="like1"> <img src="assets/img/icons/like1.svg" alt="" class="like2"></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="featured-boxarea">
-            <div class="img1">
-              <img src="assets/img/all-images/features-img1.png" alt="">
-            </div>
-            <div class="sell-point">
-              <a href="property-single.html" class="sell">Sell</a>
-              <a href="property-single.html" class="featured">Featured</a>
-            </div>
-            <div class="content-area">
-              <a href="property-single.html">Villa With Panoramic View</a>
-              <p>37254 Abby Lakes Suite 093</p>
-              <ul>
-                <li><a href="#"><img src="assets/img/icons/sqft.svg" alt="">1350 sqft</a></li>
-                <li><a href="#"><img src="assets/img/icons/bed.svg" alt="">3 Beds</a></li>
-                <li class="m-0"><a href="#"><img src="assets/img/icons/bath.svg" alt="">2 Baths</a></li>
-              </ul>
-              <div class="price-area">
-                <h3>$850/ <span>month</span></h3>
-                <a href="#"><img src="assets/img/icons/like.svg" alt="" class="like1"> <img src="assets/img/icons/like1.svg" alt="" class="like2"></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="featured-boxarea">
-            <div class="img1">
-              <img src="assets/img/all-images/features-img2.png" alt="">
-            </div>
-            <div class="sell-point">
-              <a href="property-single.html" class="sell">Sell</a>
-              <a href="property-single.html" class="featured">Featured</a>
-            </div>
-            <div class="content-area">
-              <a href="property-single.html">Sunset Haven Estate</a>
-              <p>799 Loma Lodge, Quigleystad</p>
-              <ul>
-                <li><a href="#"><img src="assets/img/icons/sqft.svg" alt="">1250 sqft</a></li>
-                <li><a href="#"><img src="assets/img/icons/bed.svg" alt="">4 Beds</a></li>
-                <li class="m-0"><a href="#"><img src="assets/img/icons/bath.svg" alt="">2 Baths</a></li>
-              </ul>
-              <div class="price-area">
-                <h3>$7,50,000</h3>
-                <a href="#"><img src="assets/img/icons/like.svg" alt="" class="like1"> <img src="assets/img/icons/like1.svg" alt="" class="like2"></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="featured-boxarea">
-            <div class="img1">
-              <img src="assets/img/all-images/features-img3.png" alt="">
-            </div>
-            <div class="sell-point">
-              <a href="property-single.html" class="sell">Sell</a>
-              <a href="property-single.html" class="featured">Featured</a>
-            </div>
-            <div class="content-area">
-              <a href="property-single.html">Willow Brook Residence</a>
-              <p>1722 Pollich Heights, Kamronview</p>
-              <ul>
-                <li><a href="#"><img src="assets/img/icons/sqft.svg" alt="">2000 sqft</a></li>
-                <li><a href="#"><img src="assets/img/icons/bed.svg" alt="">4 Beds</a></li>
-                <li class="m-0"><a href="#"><img src="assets/img/icons/bath.svg" alt="">2 Baths</a></li>
-              </ul>
-              <div class="price-area">
-                <h3>$950/ <span>month</span></h3>
-                <a href="#"><img src="assets/img/icons/like.svg" alt="" class="like1"> <img src="assets/img/icons/like1.svg" alt="" class="like2"></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="featured-boxarea">
-            <div class="img1">
-              <img src="assets/img/all-images/features-img1.png" alt="">
-            </div>
-            <div class="sell-point">
-              <a href="property-single.html" class="sell">Sell</a>
-              <a href="property-single.html" class="featured">Featured</a>
-            </div>
-            <div class="content-area">
-              <a href="property-single.html">Villa With Panoramic View</a>
-              <p>37254 Abby Lakes Suite 093</p>
-              <ul>
-                <li><a href="#"><img src="assets/img/icons/sqft.svg" alt="">1350 sqft</a></li>
-                <li><a href="#"><img src="assets/img/icons/bed.svg" alt="">3 Beds</a></li>
-                <li class="m-0"><a href="#"><img src="assets/img/icons/bath.svg" alt="">2 Baths</a></li>
-              </ul>
-              <div class="price-area">
-                <h3>$850/ <span>month</span></h3>
-                <a href="#"><img src="assets/img/icons/like.svg" alt="" class="like1"> <img src="assets/img/icons/like1.svg" alt="" class="like2"></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="featured-boxarea">
-            <div class="img1">
-              <img src="assets/img/all-images/features-img2.png" alt="">
-            </div>
-            <div class="sell-point">
-              <a href="property-single.html" class="sell">Sell</a>
-              <a href="property-single.html" class="featured">Featured</a>
-            </div>
-            <div class="content-area">
-              <a href="property-single.html">Sunset Haven Estate</a>
-              <p>799 Loma Lodge, Quigleystad</p>
-              <ul>
-                <li><a href="#"><img src="assets/img/icons/sqft.svg" alt="">1250 sqft</a></li>
-                <li><a href="#"><img src="assets/img/icons/bed.svg" alt="">4 Beds</a></li>
-                <li class="m-0"><a href="#"><img src="assets/img/icons/bath.svg" alt="">2 Baths</a></li>
-              </ul>
-              <div class="price-area">
-                <h3>$7,50,000</h3>
-                <a href="#"><img src="assets/img/icons/like.svg" alt="" class="like1"> <img src="assets/img/icons/like1.svg" alt="" class="like2"></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="featured-boxarea">
-            <div class="img1">
-              <img src="assets/img/all-images/features-img3.png" alt="">
-            </div>
-            <div class="sell-point">
-              <a href="property-single.html" class="sell">Sell</a>
-              <a href="property-single.html" class="featured">Featured</a>
-            </div>
-            <div class="content-area">
-              <a href="property-single.html">Willow Brook Residence</a>
-              <p>1722 Pollich Heights, Kamronview</p>
-              <ul>
-                <li><a href="#"><img src="assets/img/icons/sqft.svg" alt="">2000 sqft</a></li>
-                <li><a href="#"><img src="assets/img/icons/bed.svg" alt="">4 Beds</a></li>
-                <li class="m-0"><a href="#"><img src="assets/img/icons/bath.svg" alt="">2 Baths</a></li>
-              </ul>
-              <div class="price-area">
-                <h3>$950/ <span>month</span></h3>
-                <a href="#"><img src="assets/img/icons/like.svg" alt="" class="like1"> <img src="assets/img/icons/like1.svg" alt="" class="like2"></a>
-              </div>
-            </div>
-          </div>
+          <h3 style="font-size: 1.5rem; margin-bottom: 15px;">Service varié et adapté</h3>
+          <p>La sécurisation du foncier urbain constitue l'une de nos priorités pour garantir votre investissement.</p>
+          <a href="#" class="mt-auto" style="font-weight: 600; color: var(--primary-color);">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
+
+      <!-- Service 2: Clé en main -->
+      <div class="col-lg-4 col-md-6 mb-4 d-flex">
+        <div class="service-card" style="background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); width: 100%;">
+          <div class="service-icon" style="font-size: 2.5rem; color: var(--secondary-color); margin-bottom: 20px;">
+            <i class="fa-solid fa-key"></i>
+          </div>
+          <h3 style="font-size: 1.5rem; margin-bottom: 15px;">Service clé en main</h3>
+          <p>S'engager à construire son logement est une décision majeure. Nous vous proposons un service clé en main pour une expérience sereine.</p>
+          <a href="#" class="mt-auto" style="font-weight: 600; color: var(--primary-color);">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <!-- Service 3: Prêt à décorer -->
+      <div class="col-lg-4 col-md-6 mb-4 d-flex">
+        <div class="service-card" style="background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); width: 100%;">
+          <div class="service-icon" style="font-size: 2.5rem; color: var(--secondary-color); margin-bottom: 20px;">
+            <i class="fa-solid fa-paint-roller"></i>
+          </div>
+          <h3 style="font-size: 1.5rem; margin-bottom: 15px;">Service prêt à décorer</h3>
+          <p>Pour pousser encore plus loin la satisfaction, nous vous proposons un service prêt à décorer afin de personnaliser votre intérieur.</p>
+          <a href="#" class="mt-auto" style="font-weight: 600; color: var(--primary-color);">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <!-- Service 4: Architecture d'Intérieur -->
+      <div class="col-lg-4 col-md-6 mb-4 d-flex">
+        <div class="service-card" style="background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); width: 100%;">
+          <div class="service-icon" style="font-size: 2.5rem; color: var(--secondary-color); margin-bottom: 20px;">
+            <i class="fa-solid fa-couch"></i>
+          </div>
+          <h3 style="font-size: 1.5rem; margin-bottom: 15px;">Architecture d'Intérieur</h3>
+          <p>Nos réalisations se veulent une réponse créative, personnalisée et innovante, en adéquation avec votre style de vie.</p>
+          <a href="#" class="mt-auto" style="font-weight: 600; color: var(--primary-color);">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <!-- Service 5: Réhabilitation -->
+      <div class="col-lg-4 col-md-6 mb-4 d-flex">
+        <div class="service-card" style="background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); width: 100%;">
+          <div class="service-icon" style="font-size: 2.5rem; color: var(--secondary-color); margin-bottom: 20px;">
+            <i class="fa-solid fa-hammer"></i>
+          </div>
+          <h3 style="font-size: 1.5rem; margin-bottom: 15px;">Réhabilitation & Rafraîchissement</h3>
+          <p>Nous proposons également l'ensemble des services en rafraîchissement et en rénovation immobilière pour moderniser vos biens.</p>
+          <a href="#" class="mt-auto" style="font-weight: 600; color: var(--primary-color);">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <!-- Service 6: Gestion Immobilière -->
+      <div class="col-lg-4 col-md-6 mb-4 d-flex">
+        <div class="service-card" style="background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); width: 100%;">
+          <div class="service-icon" style="font-size: 2.5rem; color: var(--secondary-color); margin-bottom: 20px;">
+            <i class="fa-solid fa-building-user"></i>
+          </div>
+          <h3 style="font-size: 1.5rem; margin-bottom: 15px;">Gestion Immobilière</h3>
+          <p>Grâce à notre connaissance du marché, nous trouvons pour vous les biens à louer ou à vendre qui correspondent à vos attentes.</p>
+          <a href="#" class="mt-auto" style="font-weight: 600; color: var(--primary-color);">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
-<!--===== FEATURES AREA ENDS =======-->
+<!--===== SERVICES AREA ENDS =======-->

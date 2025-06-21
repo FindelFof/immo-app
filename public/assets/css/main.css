@@ -18070,3 +18070,77 @@ Location:
 }
 
 /*============= FEATURES CSS AREA ===============*//*# sourceMappingURL=main.css.map */
+
+
+/* ===================================
+    Palette de couleurs et style de base personnalisés
+    Inspiré par GFI-CO pour une identité visuelle professionnelle.
+   =================================== */
+
+:root {
+  --primary-color: #0d2c4a;   /* Bleu nuit pour les textes et titres */
+  --secondary-color: #f7941d; /* Doré/Orange pour les accents (hover, etc.) */
+  --background-light: #ffffff; /* Fond blanc principal */
+  --text-light: #ffffff;      /* Texte blanc (sur fond sombre) */
+  --text-dark: #333333;       /* Texte standard (gris foncé pour une meilleure lisibilité) */
+  --text-muted: #666666;      /* Texte secondaire (gris plus clair) */
+}
+
+/* 
+   Application globale de la nouvelle palette.
+   On utilise des !important pour s'assurer que nos styles prioritaires
+   ne sont pas écrasés par les règles du template.
+*/
+
+body {
+  color: var(--text-dark) !important;
+  background-color: var(--background-light) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color) !important;
+}
+
+p {
+  color: var(--text-muted) !important;
+}
+
+/* Assurer la lisibilité du header menu */
+.header1-area .main-menu .navigation > li > a {
+    color: var(--primary-color) !important;
+    font-weight: 500 !important; /* On donne un peu plus de poids à la police */
+}
+
+.header1-area .main-menu .navigation > li > a:hover {
+    color: var(--secondary-color) !important;
+}
+
+/* Style général des liens */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--secondary-color) !important;
+}
+
+/* Style des boutons pour correspondre à la palette */
+.header-btn1 {
+    background: var(--primary-color) !important;
+    color: var(--text-light) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.header-btn1:hover {
+    background: var(--secondary-color) !important;
+    color: var(--text-light) !important;
+    border-color: var(--secondary-color) !important;
+}
+
+/* ===================================
+    Début du CSS original du template...
+   =================================== */
+
+/* ... (ne touchez pas au reste du fichier, laissez-le tel quel) ... */

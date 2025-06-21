@@ -16,7 +16,13 @@
 <link rel="stylesheet" href="{{ asset('assets/css/plugins/slick-slider.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/plugins/nice-select.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
-
+<!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+<style>
+    body, h1, h2, h3, h4, h5, h6, p, a, span, div, li, input, button, textarea, label {
+        font-family: 'Poppins', sans-serif !important;
+    }
+</style> -->
 <!-- JS -->
 <script src="{{ asset('assets/js/plugins/jquery-3-6-0.min.js') }}"></script>
 

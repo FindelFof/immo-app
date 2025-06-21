@@ -13,6 +13,14 @@ class HomeController extends Controller
      */
     public function index()
     {
+
+        $houses = Property::with(['images' => function($query) {
+            $query->orderBy('display_order', 'asc');
+        }])
+            ->where('is_available', true)
+            ->latest()
+            ->get();
+
         // Récupérer les propriétés en vedette
         $featuredProperties = Property::with(['images' => function($query) {
             $query->where('is_featured', true)->orWhere('display_order', 1);
@@ -53,6 +61,7 @@ class HomeController extends Controller
         $blogPosts = $this->getStaticBlogPosts();
 
         return view('site.pages.home', compact(
+            'houses',
             'featuredProperties',
             'latestProperties',
             'cities',

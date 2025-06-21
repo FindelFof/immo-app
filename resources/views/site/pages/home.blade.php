@@ -6,8 +6,6 @@
     <!-- Hero Section -->
     @include('site.components.home.hero')
 
-    <!-- Search Tabs -->
-    @include('site.components.home.search-tabs')
 
     <!-- About Section -->
     @include('site.components.home.about')

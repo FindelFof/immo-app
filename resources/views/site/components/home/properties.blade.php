@@ -13,68 +13,32 @@
     <div class="row">
       <div class="col-lg-8 m-auto">
         <div class="property-slider-area owl-carousel">
+          @foreach($houses as $property)
           <div class="property-boxarea">
             <div class="img1 image-anime reveal">
-              <img src="assets/img/all-images/property-img1.png" alt="">
+                <img src="{{ $property->images->first() ? asset('storage/' . $property->images->first()->path) : 'https://loremflickr.com/800/600/house,exterior?lock='.$property->id }}" alt="{{ $property->title }}">
             </div>
 
             <div class="content-area">
-              <h2>$7,50,000</h2>
+              <h2>{{ number_format($property->price, 0, ',', ' ') }} FCFA</h2>
               <ul>
-                <li><a href="#"><img src="assets/img/icons/sqft.svg" alt="">1350 sqft</a></li>
-                <li><a href="#"><img src="assets/img/icons/bed.svg" alt="">3 Beds</a></li>
-                <li class="m-0"><a href="#"><img src="assets/img/icons/bath.svg" alt="">2 Baths</a></li>
+                <li><a href="#"><img src="assets/img/icons/sqft.svg" alt="">{{ $property->surface }} m²</a></li>
+                @if($property->rooms)
+                <li><a href="#"><img src="assets/img/icons/bed.svg" alt="">{{ $property->rooms }} Pièces</a></li>
+                @endif
+                @if($property->bathrooms)
+                <li class="m-0"><a href="#"><img src="assets/img/icons/bath.svg" alt="">{{ $property->bathrooms }} SDB</a></li>
+                @endif
               </ul>
-              <p>1722 Pollich Heights, Kamronview</p>
+              <p>{{ $property->address }}, {{ $property->city }}</p>
               <div class="space16"></div>
-              <p>Listed by America Ordaz of Real Estate Agency</p>
+              <p>{{ $property->type === 'sale' ? 'À vendre' : 'À louer' }}</p>
               <div class="btn-area1">
-                <a href="property-sell-rent.html" class="header-btn1">Buy Now <img src="assets/img/icons/arrow3.svg" alt=""></a>
+                <a href="{{ route('properties.show', $property->id) }}" class="header-btn1">{{ $property->type === 'sale' ? 'Acheter' : 'Louer' }} <img src="assets/img/icons/arrow3.svg" alt=""></a>
               </div>
             </div>
           </div>
-
-          <div class="property-boxarea">
-            <div class="img1 image-anime reveal">
-              <img src="assets/img/all-images/property-img2.png" alt="">
-            </div>
-
-            <div class="content-area">
-              <h2>$7,50,000</h2>
-              <ul>
-                <li><a href="#"><img src="assets/img/icons/sqft.svg" alt="">1350 sqft</a></li>
-                <li><a href="#"><img src="assets/img/icons/bed.svg" alt="">3 Beds</a></li>
-                <li class="m-0"><a href="#"><img src="assets/img/icons/bath.svg" alt="">2 Baths</a></li>
-              </ul>
-              <p>1722 Pollich Heights, Kamronview</p>
-              <div class="space16"></div>
-              <p>Listed by America Ordaz of Real Estate Agency</p>
-              <div class="btn-area1">
-                <a href="property-sell-rent.html" class="header-btn1">Buy Now <img src="assets/img/icons/arrow3.svg" alt=""></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="property-boxarea">
-            <div class="img1 image-anime reveal">
-              <img src="assets/img/all-images/property-img3.png" alt="">
-            </div>
-
-            <div class="content-area">
-              <h2>$7,50,000</h2>
-              <ul>
-                <li><a href="#"><img src="assets/img/icons/sqft.svg" alt="">1350 sqft</a></li>
-                <li><a href="#"><img src="assets/img/icons/bed.svg" alt="">3 Beds</a></li>
-                <li class="m-0"><a href="#"><img src="assets/img/icons/bath.svg" alt="">2 Baths</a></li>
-              </ul>
-              <p>1722 Pollich Heights, Kamronview</p>
-              <div class="space16"></div>
-              <p>Listed by America Ordaz of Real Estate Agency</p>
-              <div class="btn-area1">
-                <a href="property-sell-rent.html" class="header-btn1">Buy Now <img src="assets/img/icons/arrow3.svg" alt=""></a>
-              </div>
-            </div>
-          </div>
+          @endforeach
         </div>
       </div>
     </div>

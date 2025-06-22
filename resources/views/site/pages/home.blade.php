@@ -19,18 +19,7 @@
     <!-- Properties Section -->
     @include('site.components.home.properties')
 
-    <!-- Location Section -->
-    @include('site.components.home.location')
-
-    <!-- Testimonial Section -->
-    @include('site.components.home.testimonial')
-
     <!-- Blog Section -->
-    <!-- @include('site.components.home.blog') -->
+    @include('site.components.home.blog')
 
-    <!-- Contact Section -->
-    @include('site.components.home.contact')
-
-    <!-- CTA Section -->
-    @include('site.components.home.cta')
 @endsection

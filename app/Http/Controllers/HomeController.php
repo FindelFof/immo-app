@@ -19,6 +19,7 @@ class HomeController extends Controller
         }])
             ->where('is_available', true)
             ->latest()
+            ->take(10)
             ->get();
 
         // Récupérer les propriétés en vedette

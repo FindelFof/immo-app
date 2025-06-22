@@ -8,6 +8,7 @@ use App\Http\Controllers\PropertyRequestController;
 use App\Http\Controllers\RentalContractController;
 use App\Http\Controllers\RentPaymentController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 // Afficher la page d'accueil avec la méthode viewDemo
@@ -80,7 +81,7 @@ Route::prefix('pages')->name('pages.')->group(function () {
 
 // Contact
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
-Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 
 // Recherche globale
 Route::get('/search', [HomeController::class, 'search'])->name('search');
